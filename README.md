@@ -153,7 +153,3 @@ Infrastructure components include:
 - Mongo Express
 - MailDev
 
-### 1. Clone the Repository
-
-```bash
-git clone https://github.com/ABDALLAH-BADER/ecommerce-microservices-spring-boot.git
