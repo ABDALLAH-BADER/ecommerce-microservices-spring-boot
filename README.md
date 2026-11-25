@@ -51,7 +51,6 @@ The application is divided into independent microservices, each responsible for 
 - Docker & Docker Compose
 - JavaMailSender
 - Thymeleaf
-- Zipkin
 - Maven
 
 ## Security and Authentication
@@ -152,44 +151,7 @@ Infrastructure components include:
 - ZooKeeper
 - pgAdmin
 - Mongo Express
-- Zipkin
 - MailDev
-
-## Service Ports
-
-| Service | Port |
-|---|---:|
-| API Gateway | 8222 |
-| Customer Service | 8090 |
-| Product Service | 8050 |
-| Order Service | 8070 |
-| Payment Service | 8060 |
-| Notification Service | 8040 |
-| Config Server | 8888 |
-| Eureka Discovery Server | 8761 |
-| Zipkin | 9411 |
-| MailDev SMTP | 1025 |
-| MailDev Web UI | 1080 |
-
-## API Gateway Routes
-
-| Endpoint | Service |
-|---|---|
-| `/api/v1/customers/**` | Customer Service |
-| `/api/v1/products/**` | Product Service |
-| `/api/v1/orders/**` | Order Service |
-| `/api/v1/order-lines/**` | Order Service |
-| `/api/v1/payments/**` | Payment Service |
-
-## Running the Project
-
-### Prerequisites
-
-- Java JDK
-- Maven
-- Docker Desktop
-- Git
-- Keycloak configuration
 
 ### 1. Clone the Repository
 
